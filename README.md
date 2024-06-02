@@ -1,2 +1,2 @@
 # Authfy-App
-aplicação do Authfy em uma aplicação
+Implementação do Authfy em uma aplicação
