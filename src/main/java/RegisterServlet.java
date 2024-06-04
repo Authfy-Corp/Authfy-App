@@ -8,7 +8,7 @@ import autenticacao.ContaManager;
 import autenticacao.DatabaseConfigurator;
 import autenticacao.Conta;
 
-@WebServlet("/RegisterServlet")
+@WebServlet("/RegisterServlet1")
 public class RegisterServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -16,7 +16,7 @@ public class RegisterServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        String dbeaverConfigFilePath = "C:\\Users\\Caio Bisesti\\eclipse-workspace\\AuthfyApp\\src\\main\\java\\dbeaver-config.json";
+        String dbeaverConfigFilePath = "AuthfyApp/src/main/webapp/register.jsp";
 
         DatabaseConfigurator dbConfigurator = DatabaseConfigurator.fromDBeaverConfig(dbeaverConfigFilePath);
         
