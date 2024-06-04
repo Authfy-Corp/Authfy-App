@@ -16,7 +16,7 @@ public class RegisterServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        String dbeaverConfigFilePath = "AuthfyApp/src/main/webapp/register.jsp";
+        String dbeaverConfigFilePath = "AuthfyApp/src/main/java/dbeaver-config.json";
 
         DatabaseConfigurator dbConfigurator = DatabaseConfigurator.fromDBeaverConfig(dbeaverConfigFilePath);
         
